@@ -739,7 +739,7 @@ does not determine whether the resolved URL protocol can be loaded,
 or whether the file extensions are permitted, instead these validations
 are applied by Node.js during the load phase
 (for example, if it was asked to load a URL that has a protocol that is
-not `file:`, `data:` or `node:`.
+not `file:`, `data:` or `node:`).
 
 The algorithm also tries to determine the format of the file based
 on the extension (see `ESM_FILE_FORMAT` algorithm below). If it does
